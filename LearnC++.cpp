@@ -2,11 +2,11 @@
 using namespace std;
 void print1(int n)
 {
-    for (int a = 0; a < n; a++)
+    for (int a = 1; a <= n; a++)
     {
-        for (int b = 0; b < n - a; b++)
+        for (int b = 1; b <= a; b++)
         {
-            cout << "*";
+            cout << b << " ";
         }
         cout << endl;
     }
